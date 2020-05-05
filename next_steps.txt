@@ -1,0 +1,10 @@
+Predecir:
+    - Tiempo de entrega del medicamento (24hrs)
+    - Consumo de pacientes
+Analizar:
+    - Salidas vs consumos (2018-semanales, 2019-diarios)
+Pedir:    
+    - Cardex top (movimientos diarios)
+
+    
+Medicamentos de alto desplazamiento: stock mínimo de 14 días
