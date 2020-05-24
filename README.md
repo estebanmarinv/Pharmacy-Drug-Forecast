@@ -13,6 +13,6 @@ Once the base files are obtained in the Clean process. we identified the columns
 
 From the CSVs files, each of the Database Tables was created. Next, the detail of each of the columns per Table is shown
 
-#     3.2.2 Django Environment
+### 3.2.2 Django Environment
 # 4. Data Analysis and Computation
 # 5. Conclusions and Future Work
