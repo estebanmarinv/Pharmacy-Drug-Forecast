@@ -5,5 +5,8 @@
 3.1 Infrastructure
 
 3.2 Application
+
+3.2.1 Create Database
+
 # 4. Data Analysis and Computation
 # 5. Conclusions and Future Work
