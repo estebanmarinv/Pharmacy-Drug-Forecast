@@ -17,9 +17,9 @@
 ![alt text](CreateCSVsDB/DB%20design.png "Database")
 
 ### Web Site
-#### a) Includinding the Web Application Framework Django to build our Web Site in the next 
+#### a) Includinding the Web Application Framework Django* to build the Web Site and permit manages the information and produces reports, the directory Django contains the files to enable the environment.
 
-#### b) Dash Framework
+#### b) Dash Framework is integrated to Django to create the Dashboards with themes called layouts. The graphs are integrated with Plotly python structure code, in the directory dash_apps.
 
 ## 4. Data Analysis and Computation
 ## 5. Conclusions and Future Work
