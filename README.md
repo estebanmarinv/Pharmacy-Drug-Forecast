@@ -7,11 +7,18 @@
 ### Create Database
 #### a) Create CSVs temporary files
 
-Once the base files are obtained in the Clean process. we identified the columns that could be used to create the Tables in the new Database, 7 new temporary CSV files were generated with which the Database was directly fed according to the following table:
+**CreateCSVs.ipyb** creates 7 temporary files according with Database design:
+- PatentDrug.csv
+- Request
+- RequestMedCode
+- PurchaseOrder
+- POReqMedCode
+- PatientCosumption
+- PatConsMedCode
 
-##### b) Create Database
+#### b) Create Database
 
-From the CSVs files, each of the Database Tables was created. Next, the detail of each of the columns per Table is shown
+**CreateDB** From the CSVs files, each of the Database Tables was created. Next, the detail of each of the columns per Table is shown
 
 ### 3.2.2 Django Environment
 # 4. Data Analysis and Computation
