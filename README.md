@@ -17,7 +17,7 @@
 ![alt text](CreateCSVsDB/DB%20design.png "Database")
 
 ### Web Site
-#### a) Includinding the Web Application Framework Django to buil our Web Site in the next 
+#### a) Includinding the Web Application Framework Django to build our Web Site in the next 
 
 #### b) Dash Framework
 
