@@ -1,0 +1,20 @@
+{% extends "Base.html" %}
+
+{% block title %} NEXT Request {% endblock %}
+
+{% block content %}
+    <h3 face='Arial'> NEXT REQUEST - THIS WEEK </h3>
+    <p>{{req|length}} Patent Drugs with Predict </p>
+    {%if req%}
+        <ul>
+            {% for medcode in req %}
+                <li>
+                {{medcode.MedCode}} &nbsp; {{medcode.MedDescription}} &nbsp; {{medcode.Predict}}
+                </li>
+            {% endfor %}
+    {% else %}
+        <p> There isn't Patent Drugs </p>
+        </ul>
+    {% endif %}
+
+{% endblock %}

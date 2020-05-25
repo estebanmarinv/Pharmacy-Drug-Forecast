@@ -1,0 +1,13 @@
+{% extends "Base.html" %}
+
+{% block title %} SEARCHING REQUEST {% endblock %}%}
+
+{% block content %}
+
+    <h3 class="search-title"> SEARCHING REQUEST </h3>
+     <form id="pid" action='/search_request/' method="GET">
+        <input type="text" name="request" placeholder="Request Number">
+        <input type="submit" value="Search">
+    </form>
+
+{% endblock %}

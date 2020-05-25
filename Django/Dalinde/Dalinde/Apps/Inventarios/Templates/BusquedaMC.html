@@ -1,0 +1,12 @@
+{% extends "Base.html" %}
+
+{% block title %} SEARCHING MED CODE {% endblock %}%}
+
+{% block content %}
+    <h3 class="search-title"> MEDCODE </h3>
+     <form id="pid" action='/search_mcreq/' method="GET">
+        <input type="text" name="mc" placeholder="Med Code Number">
+        <input type="submit" value="Search">
+    </form>
+
+{% endblock %}

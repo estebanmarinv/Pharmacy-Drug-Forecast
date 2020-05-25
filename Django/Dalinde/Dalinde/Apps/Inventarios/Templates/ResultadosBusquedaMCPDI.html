@@ -1,0 +1,18 @@
+{% extends "Base.html" %}
+
+{% block title %} SEARCHING RESULTS {% endblock %}%}
+
+{% block content %}
+<div id="pdi-res-wrapper">
+    <h3 face='Arial'> PDI FOR MEDCODE: </h3>
+    <p>{{mcpdi|length}} times for <strong>{{query}} - {{des}}</strong> in 2018-2019 period</p>
+
+    {% load static %}
+    <img src="{% static "ImagenMCPDI.png" %}"
+            alt="Grafica PDI"
+            width="500"
+            height="400"
+        ></img>
+</div>
+{% endblock %}
+
