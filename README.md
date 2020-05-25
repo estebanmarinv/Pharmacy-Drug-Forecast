@@ -18,7 +18,7 @@
 
 #### b) Create Database
 
-**CreateDB*.ipyb** creates the tables in the PostgreSQL Database from the temporary files
+**CreateDB.ipyb** creates the tables in the PostgreSQL Database from the temporary files
 
 ### 3.2.2 Django Environment
 ## 4. Data Analysis and Computation
