@@ -20,6 +20,9 @@
 
 **CreateDB.ipyb** creates the tables in the PostgreSQL Database from the temporary files
 
+
+
+
 ### Web Site
 #### a) Django environment
 
