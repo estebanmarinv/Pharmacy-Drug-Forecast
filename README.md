@@ -12,7 +12,7 @@
 
 #### b) Create Database
 
-**CreateDB.ipyb** creates the tables in the PostgreSQL Database from the temporary files, according with the next image:
+**CreateDB.ipyb** creates the tables in the PostgreSQL Database from the temporary files, according with the Database design included in the next image:
 
 ![alt text](CreateCSVsDB/DB%20design.png "Database")
 
