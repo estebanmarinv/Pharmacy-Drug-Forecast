@@ -32,5 +32,4 @@ In Django/Dalinde directory run:
 
 View the Web site at http://<host_name>:8000/
 
-## 4. Data Analysis and Computation
-## 5. Conclusions and Future Work
+## Data Analysis and Computation
