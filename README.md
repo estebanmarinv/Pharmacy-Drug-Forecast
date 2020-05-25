@@ -21,7 +21,7 @@
 To build the Web Site that permits manage the information and produce reports, the directory Django contains the files to enable the environment.
 
 #### b) Dash Framework:
-It's integrated to Django to create the Dashboards with themes called layouts. The graphs are integrated with Plotly python structure code, in the directory dash_apps.
+It's integrated to Django to create the Dashboards with themes called layouts. The graphs are integrated with Plotly python structure code, wich is included in the directory dash_apps.
 
 ### Run Server
 
