@@ -21,5 +21,14 @@
 
 #### b) Dash Framework is integrated to Django to create the Dashboards with themes called layouts. The graphs are integrated with Plotly python structure code, in the directory dash_apps.
 
+### Run Server
+
+In Django/Dalinde directory run:
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py runserver
+
+View the Web site at http://<host_name>:8000/
+
 ## 4. Data Analysis and Computation
 ## 5. Conclusions and Future Work
