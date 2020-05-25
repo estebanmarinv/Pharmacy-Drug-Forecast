@@ -25,6 +25,20 @@ It's integrated to Django to create the Dashboards with themes called layouts. T
 
 ### Run Server
 
+**Requirements**
+- Intall python
+- Add Packages:
+dash                      1.10.0
+django                    3.0.3
+django-plotly-dash        1.3.1
+gekko                     0.2.6
+matplotlib                3.1.3
+numpy                     1.18.4
+pandas                    1.0.3
+plotly                    4.7.1
+psycopg2                  2.8.4
+sqlalchemy                1.3.16
+
 In Django/Dalinde directory run:
 - python manage.py makemigrations
 - python manage.py migrate
