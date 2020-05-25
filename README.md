@@ -8,13 +8,7 @@
 #### a) Create CSVs temporary files
 
 **CreaCSVs.ipyb** creates 7 temporary files from the files obtained in the data cleaning process
-- PatentDrug.csv
-- Request
-- RequestMedCode
-- PurchaseOrder
-- POReqMedCode
-- PatientCosumption
-- PatConsMedCode
+- PatentDrug.csv, Request.csv, RequestMedCode.csv, PurchaseOrder.csv, POReqMedCode.csv, PatientCosumption.csv, PatConsMedCode.csv
 
 #### b) Create Database
 
