@@ -7,7 +7,7 @@
 ### Create Database
 #### a) Create CSVs temporary files
 
-**CreateCSVs.ipyb** creates 7 temporary files according with Database design:
+**CreaCSVs.ipyb** creates 7 temporary files from the files obtained in the data cleaning process
 - PatentDrug.csv
 - Request
 - RequestMedCode
@@ -18,7 +18,7 @@
 
 #### b) Create Database
 
-**CreateDB** From the CSVs files, each of the Database Tables was created. Next, the detail of each of the columns per Table is shown
+**CreateDB*.ipyb** creates the tables in the PostgreSQL Database from the temporary files
 
 ### 3.2.2 Django Environment
 ## 4. Data Analysis and Computation
