@@ -1,3 +1,6 @@
+# This is the suggested Anaconda envirnonment for Unix-like OSs.
+# Altough most of the required packages are listed here, it is not guaranteed to have ALL the packages.
+
 name: dalinde_env
 channels:
 - anaconda
