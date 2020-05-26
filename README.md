@@ -1,14 +1,15 @@
 # Demand Forecast & Inventory Control of Pharmaceutical Drugs
 
 This repository keeps track of the code for the Team 8 Mexico final project for DS4A-Latam 2020.
+
 Authors:
 
-Alejando Córdoba
-Roberto Corona
-Emmanuel Hernández
-Esteban Marín
-Victor Martínez
-Gerardo Ruíz
+* Alejando Córdoba
+* Roberto Corona
+* Emmanuel Hernández
+* Esteban Marín
+* Victor Martínez
+* Gerardo Ruíz
 
 ## Application
 ### Database Creation
