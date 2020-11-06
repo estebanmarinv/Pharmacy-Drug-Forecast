@@ -1,15 +1,7 @@
 # Demand Forecast & Inventory Control of Pharmaceutical Drugs
 
-This repository keeps track of the code for the Team 8 Mexico final project for DS4A-Latam 2020.
+This repository keeps track of the code for the Team 8 Mexico final project for DS4A-Latam 2020 parts in which I was involved
 
-Authors:
-
-* Alejando Córdoba
-* Roberto Corona
-* Emmanuel Hernández
-* Esteban Marín
-* Victor Martínez
-* Gerardo Ruíz
 
 ## Application
 ### Database Creation
@@ -23,26 +15,6 @@ Authors:
 **CreateDB.ipyb** creates the tables in the PostgreSQL Database from the temporary files, according with the Database design included in the next image:
 
 ![alt text](CreateCSVsDB/DB%20design.png "Database")
-
-### Web Site
-#### a) Web Application Framework Django:
-The directory Django contains the files to enable the environment, the Web Site permits manage the information and produce reports.
-
-#### b) Dash Framework:
-It's integrated to Django to create the Dashboards with themes called layouts. The graphs are integrated with Plotly python structure code, wich is included in the directory Django/Dalinde/Dalinde/dash_apps.
-
-### Run Server
-
-**Requirements**
-- Install python
-- Add packages: dash 1.10.0, django 3.0.3, django-plotly-dash 1.3.1, gekko 0.2.6, matplotlib 3.1.3, numpy                1.18.4, pandas 1.0.3, plotly 4.7.1, psycopg 2 2.8.4, sqlalchemy 1.3.16
-
-In Django/Dalinde directory run:
-- python manage.py makemigrations
-- python manage.py migrate
-- python manage.py runserver
-
-View the Web site at http://<host_name>:8000/
 
 ## Data Analysis
 
@@ -62,39 +34,8 @@ The notebook [ARIMA_model.ipynb](modeling/ARIMA_model.ipynb) uses the TOP 9 MedC
 
 The code provided here computes the 9 ARIMA models for each of the time series, and outputs CSV files with the results. 
 
-### RNN model
-
-The code for the implementation of the Recurrent Neural Network model for forecasting time series is documented in the file [RNN_model.ipynb](modeling/RNN_model.ipynb).
 
 ## Model comparison
 
 A comparison between the modeling approaches was made. This is documented in the file [model_comparison.ipynb](modeling/model_comparison.ipynb).
 
-## PID controller
-
-The Jupyter notebook [PID_controller.ipynb](modeling/PID_controller.ipynb)
-
-In this document you will find the complete description of the PID system, with which the inventory optimization is made.
-
-The first section corresponds to the analysis of the csv files to obtain the top 9 of the most consumed drugs. This section was prepared as discussed in the [Exploratory Data Analysis](### Exploratory Data Analysis) subsection, more detail of it can be found in the predictive modeling section with ARIMA and Neural Network
-
-The section titled: PID INVENTORY LEVEL CONTROL, contains all the information relevant to the PID process for inventory modeling.
-
-To have the complete charts of the 9 most consumed drugs, 9 csv files are used, which are titled as follows:
-
-* top 9 combivent.csv
-* top 9 combivent_respimat.csv
-* top 9 firac plus.csv
-* top 9 flixotide 2mg.csv
-* top 9 indaflex.csv
-* top 9 lipitor.csv
-* top 9 mydocalm_C.csv
-* top 9 somazina.csv
-* top 9 vancocin_CP.csv
-
-For the simulation, GEKKO is used, which is a package of analysis, simulation and resolution of differential equations, integral among others.
-
-To install it inside the jupyter use:
-```
-!pip install gekko --upgrade
-```
