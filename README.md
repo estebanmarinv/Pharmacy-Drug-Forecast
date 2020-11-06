@@ -13,8 +13,6 @@ This repository keeps track of the code for the Team 8 Mexico final project for 
 
 **CreateDB.ipyb** creates the tables in the PostgreSQL Database from the temporary files, according with the Database design included in the next image:
 
-![alt text](CreateCSVsDB/DB%20design.png "Database")
-
 ## Data Analysis
 
 ### Data cleaning
